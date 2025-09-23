@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon --exec ts-node index.ts",
-    "lint": "eslint ./**/*.ts --fix"
+    "dev": "nodemon",
+    "lint": "eslint ./src/**/*.ts --fix"
   },
   "repository": {
     "type": "git",
